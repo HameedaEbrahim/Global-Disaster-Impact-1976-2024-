@@ -5,41 +5,33 @@ In this project, a comprehensive dataset of global disaster events is analyzed t
 The aim of this analysis is to transform raw data into meaningful insights by examining long-term trends, seasonal patterns, severity classifications, and regional differences. Through techniques such as frequency analysis, and ratio calculations, the report highlights which areas are most at risk, which hazards are becoming more common, and how the impact on communities changes over years and quarters. These findings provide valuable knowledge that can support disaster preparedness, improve resilience, and contribute to more effective decision-making in risk management.
 
 ## Dataset Description:
-Source: The International Disaster Database (EM-DAT)
-Time period: 1976 - present
-Rows: ~26K 
-Columns: 46 
+•	Source: The International Disaster Database (EM-DAT)
+•	Time period: 1976 - present
+•	Rows: ~26K 
+•	Columns: 46
 
 ## Data Cleaning & Preparation: 
 Cleaning steps included:
-● Exlude some data: 
-○ start the data from 1976 until 2024.
-
-● Converted types of columns:
-○ (Total Deaths, Total Affected, Start Month, Start Day) to integer. 
-○ 
-
-Python EDA Project
-
-● Handled missing values:
-○ (Start Day):
-    1. Assume that the (start Day) = (End Day) 
-    2. Drop the rows that the (Start Day) & (End Day)
-○ (Start Month):
-    1. Assume that the (start Month) = (End Month) 
-○ (Total Affected, Total Deaths): 
-    1. Drop the missing rows.
-○ (Mgnitude): 
-    1. Fill the magnitude for the earthquake disasters only.
-
-● Created new Columns:
-○ Date = Start Year , Start Month - Start Day 
-
-● Fix the error in the Date: 
-○ fix invalid date (e.g. Novmber have max date 30 , but in the data they put 31) 
-
-● Drop columns: 
-○ Drop the not important columns ( Entry Date, Last Update, ISO)
+1.	Exclude some data: 
+	start the data from 1976 until 2024.
+2.	Converted types of columns:
+	(Total Deaths, Total Affected, Start Month, Start Day) to integer. 
+3.	Handled missing values:
+	(Start Day):
+	Assume that the (start Day) = (End Day) 
+	 Drop the rows that the (Start Day) & (End Day)
+	(Start Month):
+	Assume that the (start Month) = (End Month) 
+	(Total Affected, Total Deaths): 
+	Drop the missing rows.
+	(Magnitude): 
+	Fill the magnitude for the earthquake disasters only.
+4.	Created new Columns:
+	○Date = Start Year , Start Month - Start Day 
+5.	Fix the error in the Date: 
+	fix invalid date (e.g. November have max date 30 , but in the data they put 31) 
+6.	Drop columns: 
+	Drop the not important columns ( Entry Date, Last Update, ISO)
 
 ## Key Insights: 
 1.
