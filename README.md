@@ -13,25 +13,26 @@ The aim of this analysis is to transform raw data into meaningful insights by ex
 ## Data Cleaning & Preparation: 
 Cleaning steps included:
 1.	Exclude some data: 
-	start the data from 1976 until 2024.
+•	start the data from 1976 until 2024.
 2.	Converted types of columns:
-	(Total Deaths, Total Affected, Start Month, Start Day) to integer. 
+•	(Total Deaths, Total Affected, Start Month, Start Day) to integer. 
 3.	Handled missing values:
-	(Start Day):
-	Assume that the (start Day) = (End Day) 
-	 Drop the rows that the (Start Day) & (End Day)
-	(Start Month):
-	Assume that the (start Month) = (End Month) 
-	(Total Affected, Total Deaths): 
-	Drop the missing rows.
-	(Magnitude): 
-	Fill the magnitude for the earthquake disasters only.
+•	(Start Day):
+o	Assume that the (start Day) = (End Day) 
+o	 Drop the rows that the (Start Day) & (End Day)
+•	(Start Month):
+o	Assume that the (start Month) = (End Month) 
+•	(Total Affected, Total Deaths): 
+o	Drop the missing rows.
+•	(Magnitude): 
+o	Fill the magnitude for the earthquake disasters only.
 4.	Created new Columns:
-	○Date = Start Year , Start Month - Start Day 
+•	○Date = Start Year , Start Month - Start Day 
 5.	Fix the error in the Date: 
-	fix invalid date (e.g. November have max date 30 , but in the data they put 31) 
+•	fix invalid date (e.g. November have max date 30 , but in the data they put 31) 
 6.	Drop columns: 
-	Drop the not important columns ( Entry Date, Last Update, ISO)
+•	Drop the not important columns ( Entry Date, Last Update, ISO)
+
 
 ## Key Insights: 
 1.
