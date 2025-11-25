@@ -46,6 +46,24 @@ Python EDA Project
 
 
 ## Recommendations: 
+# For flood disasters: 
+    1.	Strengthen early-warning and evacuation systems.
+    2.	Improve drainage, riverbank reinforcement, and urban water flow.
+    3.	Prioritize high-risk countries for seasonal preparedness.
+# For storm disasters: 
+    1.	Develop region-specific seasonal forecasting and communication.
+    2.	Enhance coastal protection and shelter infrastructure.
+    3.	Develop preparedness efforts.
+    4.	Expand community-level training and early-alert coverage.
+# For earthquake disasters: 
+    1.	Implement and enforce seismic-resistant building standards.
+    2.	Prioritize regions with high deaths per event.
+    3.	Expand public awareness programs and emergency drills.
+# For response: 
+    1.	Improve response coordination: Countries and organizations should enhance disaster response planning to ensure rapid mobilization after appeals.
+    2.	Prioritize high-risk areas: Use historical disaster data to identify regions with frequent disasters and high affected numbers, and allocate resources proactively.
+    3.	Strengthen early warning systems: Especially for floods and storms, improved forecasting and communication can reduce casualties.
+    4.	Capacity building: Train local authorities and volunteers in emergency response to improve response effectiveness.
 
 ## Tools & Libraries: 
 ● Python: pandas, numpy, calander.
