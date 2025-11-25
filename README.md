@@ -6,10 +6,11 @@ The aim of this analysis is to transform raw data into meaningful insights by ex
 
 
 ## Dataset Description:
-•	Source: The International Disaster Database (EM-DAT)
-•	Time period: 1976 - present
-•	Rows: ~26K 
-•	Columns: 46
+1.	Source: The International Disaster Database (EM-DAT) 
+2.	Link: https://public.emdat.be/data 
+3.	Time period: 1976 - present
+4.	Rows: ~26K 
+5.	Columns: 46
 
 
 ## Data Cleaning & Preparation: 
