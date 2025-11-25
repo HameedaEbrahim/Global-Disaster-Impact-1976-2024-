@@ -24,7 +24,6 @@ Cleaning steps included:
    •	(Total Deaths, Total Affected, Start Month, Start Day) to integer. 
 
 5.	Handled missing values:
-   
    •	(Start Day):
 
       o	Assume that the (start Day) = (End Day) 
@@ -42,16 +41,16 @@ Cleaning steps included:
    •	(Magnitude): 
 
       o	Fill the magnitude for the earthquake disasters only.
+      
+6. Created new Columns:
 
-7.	Created new Columns:
+    • Date = Start Year , Start Month - Start Day 
 
-   •	○Date = Start Year , Start Month - Start Day 
-
-9.	Fix the error in the Date:
+7.	Fix the error in the Date:
 
    •	fix invalid date (e.g. November have max date 30 , but in the data they put 31) 
 
-11.	Drop columns:
+8.	Drop columns:
     
    •	Drop the not important columns ( Entry Date, Last Update, ISO)
 
